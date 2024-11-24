@@ -1,0 +1,56 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Sobre los Gatos{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/cats-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Sobre los Gatos</h1>
+<span class="subheading">Un vistazo al maravilloso mundo felino</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="https://placekitten.com/300/300" alt="Adorable gatito">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">El Fascinante Mundo de los Gatos</h2>
+        <p>Los gatos han acompañado a los humanos durante miles de años, ofreciendo su elegancia, misterio y compañía inigualable.</p>
+        <p>Desde los antiguos egipcios hasta los hogares modernos, los gatos son considerados símbolos de curiosidad, independencia y afecto. Aprende más sobre sus comportamientos, razas y cómo cuidarlos para que sean felices y saludables.</p>
+    </div>
+</div>
+{% endblock %}
+{% extends 'core/base.html' %}
+
+{% block title %}Contacto{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/cat-contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading">Estamos aquí para ayudarte con tu felino amigo</span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>En Mundo Gatuno nos encanta ayudar a los amantes de los gatos. Si tienes preguntas sobre el cuidado de tu amigo felino, su alimentación o comportamiento, ¡no dudes en contactarnos!</p>
+        <p>Proporcionamos orientación personalizada para garantizar que tu gato tenga una vida feliz, saludable y llena de ronroneos.</p>
+
+        <br>
+        <p><b>Teléfono:</b> +09 876 543 210</p>
+        <p><b>Consultoría:</b> Gratuita para amantes de los gatos 🐾</p>
+    </div>
+</div>
+{% endblock %}
+{% extends 'core/base.html' %}
+
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/cat-home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Mundo Gatuno</h1>
+<span class="subheading">Explora el universo de los gatos</span>
+{% endblock %}
